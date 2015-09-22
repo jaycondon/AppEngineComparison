@@ -1,0 +1,24 @@
+10:55:17,648 I: (ErlangCore.java:64) : Starting CORE Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]
+10:55:17,653 I: (ErlangCore.java:79) : *** starting Erlide v0.29.11.201502161407 (core=0.24.12.201502161407) (model api=0.24.11.201502161407) *** (UTF-8) ui
+10:55:17,661 I: (ErlangCore.java:86) : Started CORE
+10:55:17,662 F: (ErlangPlugin.java:88) : Core started
+10:55:18,898 F: (ErlangHostnameRetriever.java:40) : Test long hostname: null
+10:55:18,898 W: (ErlangHostnameRetriever.java:46) : Can't use null as long name
+10:55:19,846 F: (ErlangHostnameRetriever.java:40) : Test long hostname: johnnypc
+10:55:20,889 W: (ErlangHostnameRetriever.java:46) : Can't use johnnypc as long name
+10:55:21,180 F: (ErlangHostnameRetriever.java:40) : Test short hostname: johnnypc
+10:55:21,202 F: (HostnameUtils.java:74) : Detected:: johnnypc && null
+10:55:21,228 F: (BackendActivator.java:25) : Backend plugin started
+10:55:21,230 I: (ErlideUIPlugin.java:130) : Starting UI Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]
+10:55:21,233 F: (ModelActivator.java:19) : Starting Erlang model api
+10:55:21,256 F: (BackendFactory.java:42) : Create ide backend R16B03
+10:55:21,257 F: (BackendFactory.java:56) : Create backend 59b4_johnny_346824_erlide
+10:55:21,374 F: (OtpNodeProxy.java:420) : START node :> [/usr/lib/erlang/bin/erl, -sname, 59b4_johnny_346824_erlide@johnnypc, -setcookie, erlide] *** /home/johnny/Desktop/AEC
+10:55:21,375 F: (OtpNodeProxy.java:302) : Runtime 59b4_johnny_346824_erlide@johnnypc starting
+10:55:21,406 F: (OtpNodeProxy.java:213) : 59b4_johnny_346824_erlide@johnnypc: waiting connection to peer... 
+10:55:21,818 F: (OtpNodeProxy.java:220) : connected!
+10:55:22,072 F: (OtpNodeProxy.java:307) : Runtime 59b4_johnny_346824_erlide@johnnypc running
+10:55:22,074 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_23468b3@johnnypc}
+10:55:22,075 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+10:55:22,455 F: (ModelActivator.java:30) : Started model api
+10:55:22,469 I: (ErlideUIPlugin.java:152) : Started UI

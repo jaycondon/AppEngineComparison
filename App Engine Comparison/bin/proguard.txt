@@ -1,0 +1,33 @@
+# view AndroidManifest.xml #generated:38
+-keep class com.appenginecomparison.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.appenginecomparison.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.appenginecomparison.PostData { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.appenginecomparison.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.appenginecomparison.RetrieveData { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.appenginecomparison.Send_data { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
+# onClick res/layout/get_data.xml #generated:12
+-keepclassmembers class * { *** SearchRecipe(...); }
+
+# onClick res/layout/activity_main.xml #generated:25
+-keepclassmembers class * { *** getData(...); }
+
+# onClick res/layout/send_data.xml #generated:26
+-keepclassmembers class * { *** post(...); }
+
+# onClick res/layout/activity_main.xml #generated:16
+-keepclassmembers class * { *** sendData(...); }
+
